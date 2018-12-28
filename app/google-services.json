@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1030932757437",
+    "firebase_url": "https://fir-authapp-c32fb.firebaseio.com",
+    "project_id": "fir-authapp-c32fb",
+    "storage_bucket": "fir-authapp-c32fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030932757437:android:4733a4d9638d8906",
+        "android_client_info": {
+          "package_name": "com.circletech.firebaseauthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030932757437-ohh1o2lq21mc5tgev7ikg85reqtrqd2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.circletech.firebaseauthapp",
+            "certificate_hash": "2db40ad90173a273b5295781fba4489290342d97"
+          }
+        },
+        {
+          "client_id": "1030932757437-cj86n9g2pkuaq3tcvrtj7dspisgfic4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFdubzMC3wpQe0Ek_lb-AkHG8GGwyo9Ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030932757437-cj86n9g2pkuaq3tcvrtj7dspisgfic4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

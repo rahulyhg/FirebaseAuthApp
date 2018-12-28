@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auth_option_list">
+        <item>Firebase UI Lib</item>
+        <item>Phone Verification</item>
+        <item>Email Password SignIn</item>
+        <item>Email PasswordLess SignIn</item>
+        <item>Google SignIn</item>
+        <item>Facebook SignIn</item>
+        <item>Github LogIn</item>
+        <item>Twitter LogIn</item>
+        <item>Anonymous Entry</item>
+    </string-array>
+</resources>
