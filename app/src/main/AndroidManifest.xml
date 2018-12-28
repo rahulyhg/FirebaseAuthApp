@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.circletech.firebaseauthapp">
 
+    <uses-permission android:name="android.permission.INTERNET " />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +18,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".EmailPassword" />
-        <activity android:name=".EmailLink" />
+        <activity android:name=".EmailPasswordLess"
+            android:launchMode="singleTop"
+            android:label="PasswordLess SignIn ">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data
+                    android:host="auth.example.com"
+                    android:scheme="https" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".PhoneVerification"></activity>
     </application>
 
